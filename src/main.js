@@ -7,5 +7,7 @@
 //   render: h => h(App)
 // }).$mount("#app");
 
-import DummyButton from './components/DummyButton.vue'
-export default DummyButton
+
+
+export { default as Button } from './stories/Button'
+export { default as Header } from './stories/Header'
